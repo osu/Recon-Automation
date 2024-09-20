@@ -11,7 +11,7 @@ This script automates a series of tasks related to file management, data extract
 - **Archive Extraction**: Unzip files and extract their contents.
 - **Excel Workbook Manipulation**: Use `openpyxl` to manipulate Excel files, including formatting cells, creating tables, and applying formulas.
 - **Automated Data Handling**: Uses `pandas` for data frame manipulations that are then written into Excel sheets.
-- **Cross-Compatibility**: The script is designed for Windows environments, as it requires the `win32com` library for certain tasks.
+- **Compatibility**: The script is designed for Windows environments, as it requires the `win32com` library for certain tasks.
 
 ## Requirements
 
