@@ -28,7 +28,7 @@ def extract_archive(input_folder, output_folder):
 # Replace 'your_archive_file.zip' with the actual file path
 #input_folder = "[EXTERNAL]_Reconciliation_with_Waybill_January_24,_2024.zip"
 # Get the folder path from user input
-#path = input("Enter File Path: ").strip()    "C:\Users\Shah\Downloads\jan 24 kpi 2223"
+#path = input("Enter File Path: ").strip()    "/Users/nothimofc/Documentsjan 24 kpi 2223"
 File_Name = input("Enter file Name: \n")
 # Extract the file name from the file path
 file_name = os.path.basename(File_Name)
@@ -45,7 +45,7 @@ if match:
 else:
     print("Date, month, and year not found in file name")
 
-input_folder = os.path.join(os.getcwd(), f"C:\\Users\\Shah\\Downloads\\{File_Name}")
+input_folder = os.path.join(os.getcwd(), f"/Users/nothimofc/Documents{File_Name}")
 #input_folder = os.path.join(os.getcwd(), path)
 output_folder = "Unzip_output_folder"
 
